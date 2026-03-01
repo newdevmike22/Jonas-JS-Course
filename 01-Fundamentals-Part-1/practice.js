@@ -21,3 +21,10 @@ console.log(`The ${country} is a part of ${continent} with a population of ${pop
 console.log(language);
 language = "Spanish";
 console.log(`${language} is the official language of ${country}.`);
+
+// 3. let, const and var
+// Using const create 3 variables with a value that will never change and console log them.
+const yearOfBirth = 1968;
+const placeOfBirth = "Tupelo, Mississippi";
+const nameOfMother = "Sarah Doyle";
+console.log(`I was born to ${nameOfMother} in ${yearOfBirth} in the small town of ${placeOfBirth}`);

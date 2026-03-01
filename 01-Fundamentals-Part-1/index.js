@@ -19,7 +19,6 @@ console.log(`The ${superHero} is a mean ${color} smashing machine!`);
 
 let firstJob = "graphic artist";
 console.log(`${firstName} got her first real job as a ${firstJob} out of college.`);
-*/
 
 // 7 primative data types
 let age = 16; // number
@@ -43,3 +42,20 @@ console.log(typeof place);
 place = "St. Louis, MO";
 console.log(`I left my heart in ${place}.`);
 console.log(typeof place);
+*/
+
+// let, const, var
+// let allows you to change the value later.
+let favFood;
+favFood = "pizza";
+
+// const does not allow the value to be changed nor can they be empty.
+// Unless you have a variable that will change later, always use const.
+const countryOfBirth = "United States";
+const person = "Silent Steve";
+
+// var has been phased ou and no longer used.
+var currentCareer = "Web Developer";
+currentCareer = "Ninja";
+
+console.log(`${person} was born in the ${countryOfBirth}. Not many know he is a ${currentCareer} who loves deep dish ${favFood}.`);
