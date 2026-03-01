@@ -42,7 +42,7 @@ console.log(typeof place);
 place = "St. Louis, MO";
 console.log(`I left my heart in ${place}.`);
 console.log(typeof place);
-*/
+
 
 // let, const, var
 // let allows you to change the value later.
@@ -59,3 +59,38 @@ var currentCareer = "Web Developer";
 currentCareer = "Ninja";
 
 console.log(`${person} was born in the ${countryOfBirth}. Not many know he is a ${currentCareer} who loves deep dish ${favFood}.`);
+*/
+
+// Math Operators
+const now = 2036;
+const mikeAge = now - 1968;
+const marieAge = now - 1978;
+console.log(`Mike turned ${mikeAge} today.`);
+console.log(`Mike is ${mikeAge} and Marie is ${marieAge}.`);
+console.log(now * (mikeAge + marieAge));
+console.log(now / 2 + 10);
+
+const firstName = "High Lord";
+const lastName = "Jhiaxus";
+console.log(firstName + " " + lastName);
+
+// Assignment Operators
+let x = 30 - 10; // 20
+x += 15; // x + 15
+x++; // adds 1
+console.log(x);
+
+let y = 5 * 5; // 25
+y *= 2;
+y--;
+console.log(y);
+
+// Comparison Operators
+console.log(mikeAge > marieAge);
+console.log(marieAge > now);
+
+const ofLegalAge = 21;
+console.log(marieAge >= ofLegalAge);
+
+const shielaAge = now - 2020;
+console.log(shielaAge <= ofLegalAge);

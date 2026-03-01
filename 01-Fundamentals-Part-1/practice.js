@@ -28,3 +28,27 @@ const yearOfBirth = 1968;
 const placeOfBirth = "Tupelo, Mississippi";
 const nameOfMother = "Sarah Doyle";
 console.log(`I was born to ${nameOfMother} in ${yearOfBirth} in the small town of ${placeOfBirth}`);
+
+// 4. Basic Operators
+// If your country split in half, and each half would contain half the population, then how many people would live in each half?
+// Increase the population of your country by 1 and log the result to the console.
+// Finland has a population of 6 million. Does your country have more people than Finland?
+// The average population of a country is 33 million people. Does you country have less people than the average country?
+// Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.
+console.log(population / 2 + " million people.");
+population++;
+console.log(population);
+
+const finlandPopulation = 6;
+console.log(population > finlandPopulation);
+
+const avgPopulation = 33;
+console.log(population < avgPopulation);
+
+country = "Portugal";
+continent = "Europe";
+population = 11;
+language = "portuguese";
+
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
+console.log(description);
