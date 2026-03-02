@@ -67,7 +67,6 @@ const bio = `I am ${firstName} ${lastName} a ${currentYear - birthYear} year old
 I hope this does not frighten you but I do wish to funk you.`;
 
 console.log(bio);
-*/
 
 // 6. If/Else Statements
 // Create a weather variable and use it in an if/else statement to determin if you go to the beach.
@@ -88,3 +87,13 @@ if (currentYear - birthYear >= 35) {
 } else {
   console.log(`Sorry Betty. You have to wait another ${35 - (currentYear - birthYear)} years before you can join our club.`);
 }
+*/
+
+// 7. Type Conversion and Coercion
+// Predict the result of these 5 operations without executing them:
+
+console.log("9" - "5"); // 4
+console.log("19" - "13" + "17"); // 617
+console.log("19" - "13" + 17); // 23
+console.log("123" < 57); // false
+console.log(5 + 6 + "4" + 9 - 4 - 2); // 1143

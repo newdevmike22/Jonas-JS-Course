@@ -109,8 +109,7 @@ console.log(michael);
 console.log(`A string
   with multiple
   lines.`);
-  */
-
+  
 // If/Else Statements
 const age = 18;
 
@@ -131,3 +130,24 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);
+*/
+
+// Type Conversion
+const inputYear = "2004";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 16);
+
+console.log(String(35));
+
+// Type Coercion
+console.log(`I am 57 years old.`);
+console.log("15" - "5" + 20);
+console.log("50" * 4);
+
+let n = "5" * 2;
+n = n - 2;
+console.log(n); // 8
+
+let x = "5" + 5;
+x = x - 5;
+console.log(x); // 50
