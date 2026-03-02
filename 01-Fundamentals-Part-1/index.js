@@ -94,7 +94,7 @@ console.log(marieAge >= ofLegalAge);
 
 const shielaAge = now - 2020;
 console.log(shielaAge <= ofLegalAge);
-*/
+
 
 // Strings and Template Literals
 
@@ -109,3 +109,25 @@ console.log(michael);
 console.log(`A string
   with multiple
   lines.`);
+  */
+
+// If/Else Statements
+const age = 18;
+
+if (age >= 20) {
+  console.log(`Betty is old enough to get her driver's license.`);
+} else {
+  const yearsLeft = 21 - age;
+  console.log(`Betty can get her driver's license in ${yearsLeft} years.`);
+}
+
+const birthYear = 2004;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);

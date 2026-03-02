@@ -53,7 +53,6 @@ language = "portuguese";
 
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 console.log(description);
-*/
 
 // 5. Strings and Template Literals
 // Create a bio variable from various variables, using the template literal syntax.
@@ -68,3 +67,24 @@ const bio = `I am ${firstName} ${lastName} a ${currentYear - birthYear} year old
 I hope this does not frighten you but I do wish to funk you.`;
 
 console.log(bio);
+*/
+
+// 6. If/Else Statements
+// Create a weather variable and use it in an if/else statement to determin if you go to the beach.
+
+const weather = 75;
+
+if (weather >= 80) {
+  console.log(`We are going to the beach this afternoon.`);
+} else {
+  console.log(`It is a little too chilly for the beach. We will go another day.`);
+}
+
+currentYear = 2026;
+birthYear = 1996;
+
+if (currentYear - birthYear >= 35) {
+  console.log(`Betty is old enough to get into our adult nightclub.`);
+} else {
+  console.log(`Sorry Betty. You have to wait another ${35 - (currentYear - birthYear)} years before you can join our club.`);
+}
