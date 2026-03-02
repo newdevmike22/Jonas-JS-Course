@@ -1,3 +1,4 @@
+/*
 // 1. Values and Variables
 // Declare variables called country, continent and population and assign their values according to your own country (population in millions).
 //Log their values to the console.
@@ -52,3 +53,18 @@ language = "portuguese";
 
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 console.log(description);
+*/
+
+// 5. Strings and Template Literals
+// Create a bio variable from various variables, using the template literal syntax.
+
+const firstName = "Dr. Leonardo";
+const lastName = "Funkenstein";
+const occupation = "mad scientest";
+const birthYear = 1902;
+const currentYear = 2026;
+
+const bio = `I am ${firstName} ${lastName} a ${currentYear - birthYear} year old ${occupation}. 
+I hope this does not frighten you but I do wish to funk you.`;
+
+console.log(bio);

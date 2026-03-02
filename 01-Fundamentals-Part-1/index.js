@@ -59,7 +59,7 @@ var currentCareer = "Web Developer";
 currentCareer = "Ninja";
 
 console.log(`${person} was born in the ${countryOfBirth}. Not many know he is a ${currentCareer} who loves deep dish ${favFood}.`);
-*/
+
 
 // Math Operators
 const now = 2036;
@@ -94,3 +94,18 @@ console.log(marieAge >= ofLegalAge);
 
 const shielaAge = now - 2020;
 console.log(shielaAge <= ofLegalAge);
+*/
+
+// Strings and Template Literals
+
+const firstName = "Mike";
+const occupation = "web developer";
+const birthYear = 1968;
+const currentYear = 2026;
+
+const michael = `Hello. I'm ${firstName} a ${currentYear - birthYear} year old ${occupation}.`;
+console.log(michael);
+
+console.log(`A string
+  with multiple
+  lines.`);
